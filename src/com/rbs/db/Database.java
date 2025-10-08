@@ -12,7 +12,7 @@ public final class Database {
     private static final String PORT = "3306";
     private static final String DATABASE = "Railway_Booking_System";
     private static final String USERNAME = "root"; // Change to your MySQL username
-    private static final String PASSWORD = "Heki3788"; // Change to your MySQL password
+    private static final String PASSWORD = ""; // Change to your MySQL password
     
     private static final String URL = String.format("jdbc:mysql://%s:%s/%s?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC", 
                                                    HOST, PORT, DATABASE);
